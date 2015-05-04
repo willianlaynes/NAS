@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+  font-size: 20px;
+  font-family: Courier New;
+  font-weight: 800;
+}
+
+.container_top{
+  top:0px;
+  width: 100%;
+  height:100px;
+  background: #FFFFFF;
+  position:absolute;
+}
+
+.container_left{
+  top:100px;
+  width: 20%;
+  height:600px;
+  background: #CAE1FF;
+  float: left;
+  position:absolute;
+}
+
+.container_right{
+  top:100px;
+  left:20%;
+  width: 80%;
+  height:600px;
+  background: #FFF8EC;
+  float: left;
+  position:absolute;
+  
+}
+
+.container_foot{
+  top:700px;
+  width: 100%;
+  height:200px;
+  background:#53777A;
+  position:absolute;
+}
+
+.cab_img{
+  background-image: url('../img/cab_nas.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  
+  
+}
+
+.cab_titulo{
+  font-size: 25px;
+  font-family: Courier New;
+  font-weight: 800;
+  top:40px;
+  position: relative;
+}
+
+.menu{
+  
+}
+
+.menu_item{
+  font-size: 25px;
+  font-family: Courier New;
+  font-weight: 800;
+}
+
+.menu_item :hover{
+  background: #C5Eaaa;
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  height:50px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:focus{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a .menu_item{
+  background: #C5E0DC;
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  height:30px;
+  text-align: left;
+  padding: 15px;
+  border-radius: 10px;
+  color: #000000;
+}
+
+a .menu_item:hover{
+  background: #FAF8EC;
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  height:30px;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px;
+  color: #000000;
+}
+
+a .ativo{
+  background: #FFF8EC;
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  height:30px;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px;
+  color: #000000;
+
+
+  
+}
